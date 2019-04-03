@@ -34,6 +34,7 @@ import { getCaretCoordinates } from './caret-coords';
     <ng-template #defaultItemTemplate let-item="item">
       {{item[labelKey]}}
     </ng-template>
+    <span [ngClass]="dropup ? 'dropup': ''">
     <ul #list [hidden]="hidden" class="dropdown-menu scrollable-menu">
         <li *ngFor="let item of items; let i = index" [class.active]="activeIndex==i">
             <a class="dropdown-item" (mousedown)="activeIndex=i;itemClick.emit();$event.preventDefault()">
@@ -41,10 +42,12 @@ import { getCaretCoordinates } from './caret-coords';
             </a>
         </li>
     </ul>
+    </span>
     `
 })
 export class MentionListComponent implements OnInit {
   @Input() labelKey: string = 'label';
+  @Input() dropup: boolean = false;
   @Input() itemTemplate: TemplateRef<any>;
   @Output() itemClick = new EventEmitter();
   @ViewChild('list') list: ElementRef;

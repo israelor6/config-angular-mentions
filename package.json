@@ -5,7 +5,7 @@
   "keywords": [
     "angular",
     "mention",
-	"multiple mention",
+    "multiple mention",
     "autocomplete"
   ],
   "main": "mention/index.js",
@@ -18,7 +18,7 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 3006 -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -65,6 +65,6 @@
     "mention"
   ],
   "exclude": [
-	"src/mention/index.ts"
+    "src/mention/index.ts"
   ]
 }

@@ -94,6 +94,7 @@ export class MentionDirective implements OnInit, OnChanges {
       mentionItem.labelKey = mentionItem.labelKey || this.defaultLabelKey;
       mentionItem.disableSearch = mentionItem.disableSearch || this.defaultDisableSearch;
       mentionItem.maxItems = mentionItem.maxItems || this.defaultMaxItems;
+      mentionItem.dropup = mentionItem.dropup;
       //v0.10.2
      // mentionItem.mentionSelect = mentionItem.mentionSelect || this.mentionSelect;
     }
@@ -350,6 +351,7 @@ export class MentionDirective implements OnInit, OnChanges {
       mentionItem.searchList.position(nativeElement, this.iframe);
       mentionItem.searchList.itemTemplate = mentionItem.mentionListTemplate;
       mentionItem.searchList.labelKey = mentionItem.labelKey;
+      mentionItem.searchList.dropup = mentionItem.dropup;
       componentRef.instance['itemClick'].subscribe(() => {
         nativeElement.focus();
         let fakeKeydown = { "keyCode": KEY_ENTER, "wasClick": true };
