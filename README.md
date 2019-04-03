@@ -11,7 +11,7 @@ Angular mentions inspired by [Ment.io](https://github.com/jeff-collins/ment.io).
 Provides auto-complete suggestions for @mentions in text input fields, text areas,
 and content editable fields. Not fully browser tested and comes without warranty!
 
-git clone https://github.com/israelor6/fvi-angular-mentions
+git clone https://github.com/israelor6/config-angular-mentions
 cd angular-mentions
 ng serve
 
