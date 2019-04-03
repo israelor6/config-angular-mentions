@@ -1,6 +1,6 @@
 # Angular Mentions - Francis fork
 
-Forked from [https://github.com/francisvgi/fvi-angular-mentions](https://github.com/dmacfarlane/angular-mentions)
+Forked from [https://github.com/francisvgi/config-angular-mentions](https://github.com/dmacfarlane/angular-mentions)
 
 Forked from [dmacfarlane/angular-mentions](https://github.com/dmacfarlane/angular-mentions)
 
@@ -11,7 +11,7 @@ Angular mentions inspired by [Ment.io](https://github.com/jeff-collins/ment.io).
 Provides auto-complete suggestions for @mentions in text input fields, text areas,
 and content editable fields. Not fully browser tested and comes without warranty!
 
-git clone https://github.com/israelor6/fvi-angular-mentions
+git clone https://github.com/israelor6/config-angular-mentions
 cd angular-mentions
 ng serve
 
@@ -27,7 +27,7 @@ Add the CSS to your index.html:
 
 Add the module to your app.module imports:
 
-    import { MentionModule } from 'fvi-angular-mentions/mention';
+    import { MentionModule } from 'config-angular-mentions/mention';
     ...
 
     @NgModule({

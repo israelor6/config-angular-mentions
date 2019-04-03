@@ -1,5 +1,5 @@
 {
-  "name": "fvi-angular-mentions",
+  "name": "config-angular-mentions",
   "version": "0.10.4",
   "description": "Angular mentions from Dmacfarlane - angular-mentions and devel branch of Dessalines. Modified version of angular-mentions that has an optional function to format the selected item before inserting the text.",
   "keywords": [
@@ -11,7 +11,7 @@
   "main": "mention/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/francisvgi/fvi-angular-mentions.git"
+    "url": "https://github.com/israelor6/config-angular-mentions.git"
   },
   "author": "Francis Ilagan",
   "license": "MIT",
