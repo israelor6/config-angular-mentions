@@ -98,6 +98,9 @@ export interface MentionItem {
   
   // optional function to format the selected item before inserting the text
   selectMention? : any;
+  
+  // option to open the dropdown upward
+  upwad? boolean;
 }
 ```
 
