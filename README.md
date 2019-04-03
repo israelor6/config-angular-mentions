@@ -1,5 +1,6 @@
 # Angular Mentions - Francis fork
 
+Forked from [https://github.com/francisvgi/fvi-angular-mentions](https://github.com/dmacfarlane/angular-mentions)
 
 Forked from [dmacfarlane/angular-mentions](https://github.com/dmacfarlane/angular-mentions)
 
